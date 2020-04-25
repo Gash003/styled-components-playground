@@ -1,6 +1,8 @@
 import React from 'React';
-import { SimpleReduxComponent } from "./redux-playground/simple-redux";
+import { WrapperComponent } from './redux-playground/simple-redux';
 
-export const App = () => (<>
-    <SimpleReduxComponent/>
-</>);
+export const App = () => (
+  <>
+    <WrapperComponent />
+  </>
+);
