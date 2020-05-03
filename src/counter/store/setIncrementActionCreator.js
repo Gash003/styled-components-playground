@@ -1,4 +1,5 @@
-import { SET_INCREMENT } from './types';
+export const INCREMENT = 'INCREMENT';
+export const SET_INCREMENT = 'SET_INCREMENT';
 
 const setIncrementActionCreator = (incrementStep) => {
   return {

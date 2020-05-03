@@ -1,5 +1,5 @@
-import userReducer from './userReducer';
-import incrementReducer from './incrementReducer';
+import userReducer from '../user/store/userReducer';
+import incrementReducer from '../counter/store/incrementReducer';
 
 const appReducer = (state = {}, action) => {
   return {

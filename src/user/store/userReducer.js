@@ -1,4 +1,4 @@
-import { USERS } from '../actions/types';
+import {USERS} from "./usersActionCreator";
 
 const initialUserState = {
   appUsers: [],
