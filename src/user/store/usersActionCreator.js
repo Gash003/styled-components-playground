@@ -1,4 +1,4 @@
-import { USERS } from './types';
+export const USERS = 'USERS';
 const usersActionCreator = (user) => {
   return {
     type: USERS,

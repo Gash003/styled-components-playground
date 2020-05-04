@@ -2,13 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { App } from './App';
 import { Provider } from 'react-redux';
-import store from './store';
+import appStore from './appStore/appStore';
 
 ReactDOM.render(
-  <Provider store={store}>
+  <Provider store={appStore}>
     <App />
   </Provider>,
   document.getElementById('app')
 );
 
-store.subscribe(() => console.table(store.getState()));
+appStore.subscribe(() => console.table(appStore.getState()));

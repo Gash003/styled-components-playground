@@ -1,4 +1,4 @@
-import { INCREMENT, SET_INCREMENT } from '../actions/types';
+import {INCREMENT, SET_INCREMENT} from "./setIncrementActionCreator";
 
 const initialCounterState = {
   appCounter: 0,
